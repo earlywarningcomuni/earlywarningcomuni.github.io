@@ -1,0 +1,284 @@
+{
+ "generato_il": "2026-10-16T21:19:19",
+ "dataset": "dataset_con_ifc_pdi.csv",
+ "impronta_dataset": "17b44f77dfb2ef0a",
+ "esiti_completi_al": 2025,
+ "anno_predefinito": 2022,
+ "anno_minimo": 2017,
+ "anni_esclusi": {
+  "2008": "nel training (fino al 2007) esistono solo 0 variabili su 51, minimo 95%",
+  "2009": "nel training (fino al 2008) esistono solo 21 variabili su 51, minimo 95%",
+  "2010": "nel training (fino al 2009) esistono solo 22 variabili su 51, minimo 95%",
+  "2011": "nel training (fino al 2010) esistono solo 22 variabili su 51, minimo 95%",
+  "2012": "nel training (fino al 2011) esistono solo 24 variabili su 51, minimo 95%",
+  "2013": "nel training (fino al 2012) esistono solo 24 variabili su 51, minimo 95%",
+  "2014": "nel training (fino al 2013) esistono solo 24 variabili su 51, minimo 95%",
+  "2015": "nel training (fino al 2014) esistono solo 24 variabili su 51, minimo 95%",
+  "2016": "nel training (fino al 2015) esistono solo 25 variabili su 51, minimo 95%"
+ },
+ "variabili": 51,
+ "variabili_senza_storia": 49,
+ "soglie": [
+  0.05,
+  0.1,
+  0.2
+ ],
+ "soglia_allerta": 0.05,
+ "anni": [
+  {
+   "anno": 2017,
+   "stato": "disponibile",
+   "file": "anno_2017.json",
+   "mb": 6.22,
+   "comuni": 7773,
+   "orizzonti": {
+    "t1": {
+     "stato": "disponibile",
+     "periodo": [
+      2018,
+      2018
+     ],
+     "verifica_completa": true,
+     "eventi_osservati": 28,
+     "variabili_vive": 51
+    },
+    "t3": {
+     "stato": "non valutabile",
+     "periodo": null,
+     "verifica_completa": false,
+     "eventi_osservati": null,
+     "variabili_vive": null
+    }
+   }
+  },
+  {
+   "anno": 2018,
+   "stato": "disponibile",
+   "file": "anno_2018.json",
+   "mb": 6.14,
+   "comuni": 7679,
+   "orizzonti": {
+    "t1": {
+     "stato": "disponibile",
+     "periodo": [
+      2019,
+      2019
+     ],
+     "verifica_completa": true,
+     "eventi_osservati": 34,
+     "variabili_vive": 51
+    },
+    "t3": {
+     "stato": "non valutabile",
+     "periodo": null,
+     "verifica_completa": false,
+     "eventi_osservati": null,
+     "variabili_vive": null
+    }
+   }
+  },
+  {
+   "anno": 2019,
+   "stato": "disponibile",
+   "file": "anno_2019.json",
+   "mb": 9.31,
+   "comuni": 7887,
+   "orizzonti": {
+    "t1": {
+     "stato": "disponibile",
+     "periodo": [
+      2020,
+      2020
+     ],
+     "verifica_completa": true,
+     "eventi_osservati": 24,
+     "variabili_vive": 51
+    },
+    "t3": {
+     "stato": "disponibile",
+     "periodo": [
+      2020,
+      2022
+     ],
+     "verifica_completa": true,
+     "eventi_osservati": 68,
+     "variabili_vive": 51
+    }
+   }
+  },
+  {
+   "anno": 2020,
+   "stato": "disponibile",
+   "file": "anno_2020.json",
+   "mb": 9.31,
+   "comuni": 7879,
+   "orizzonti": {
+    "t1": {
+     "stato": "disponibile",
+     "periodo": [
+      2021,
+      2021
+     ],
+     "verifica_completa": true,
+     "eventi_osservati": 19,
+     "variabili_vive": 51
+    },
+    "t3": {
+     "stato": "disponibile",
+     "periodo": [
+      2021,
+      2023
+     ],
+     "verifica_completa": true,
+     "eventi_osservati": 68,
+     "variabili_vive": 51
+    }
+   }
+  },
+  {
+   "anno": 2021,
+   "stato": "disponibile",
+   "file": "anno_2021.json",
+   "mb": 9.32,
+   "comuni": 7877,
+   "orizzonti": {
+    "t1": {
+     "stato": "disponibile",
+     "periodo": [
+      2022,
+      2022
+     ],
+     "verifica_completa": true,
+     "eventi_osservati": 20,
+     "variabili_vive": 51
+    },
+    "t3": {
+     "stato": "disponibile",
+     "periodo": [
+      2022,
+      2024
+     ],
+     "verifica_completa": true,
+     "eventi_osservati": 80,
+     "variabili_vive": 51
+    }
+   }
+  },
+  {
+   "anno": 2022,
+   "stato": "disponibile",
+   "file": "anno_2022.json",
+   "mb": 9.31,
+   "comuni": 7864,
+   "orizzonti": {
+    "t1": {
+     "stato": "disponibile",
+     "periodo": [
+      2023,
+      2023
+     ],
+     "verifica_completa": true,
+     "eventi_osservati": 22,
+     "variabili_vive": 51
+    },
+    "t3": {
+     "stato": "disponibile",
+     "periodo": [
+      2023,
+      2025
+     ],
+     "verifica_completa": true,
+     "eventi_osservati": 75,
+     "variabili_vive": 51
+    }
+   }
+  },
+  {
+   "anno": 2023,
+   "stato": "disponibile",
+   "file": "anno_2023.json",
+   "mb": 9.26,
+   "comuni": 7834,
+   "orizzonti": {
+    "t1": {
+     "stato": "disponibile",
+     "periodo": [
+      2024,
+      2024
+     ],
+     "verifica_completa": true,
+     "eventi_osservati": 16,
+     "variabili_vive": 51
+    },
+    "t3": {
+     "stato": "disponibile",
+     "periodo": [
+      2024,
+      2026
+     ],
+     "verifica_completa": false,
+     "eventi_osservati": 43,
+     "variabili_vive": 51
+    }
+   }
+  },
+  {
+   "anno": 2024,
+   "stato": "disponibile",
+   "file": "anno_2024.json",
+   "mb": 9.21,
+   "comuni": 7799,
+   "orizzonti": {
+    "t1": {
+     "stato": "disponibile",
+     "periodo": [
+      2025,
+      2025
+     ],
+     "verifica_completa": true,
+     "eventi_osservati": 13,
+     "variabili_vive": 51
+    },
+    "t3": {
+     "stato": "disponibile",
+     "periodo": [
+      2025,
+      2027
+     ],
+     "verifica_completa": false,
+     "eventi_osservati": 20,
+     "variabili_vive": 51
+    }
+   }
+  },
+  {
+   "anno": 2025,
+   "stato": "disponibile",
+   "file": "anno_2025.json",
+   "mb": 8.95,
+   "comuni": 7592,
+   "orizzonti": {
+    "t1": {
+     "stato": "disponibile",
+     "periodo": [
+      2026,
+      2026
+     ],
+     "verifica_completa": false,
+     "eventi_osservati": 1,
+     "variabili_vive": 51
+    },
+    "t3": {
+     "stato": "disponibile",
+     "periodo": [
+      2026,
+      2028
+     ],
+     "verifica_completa": false,
+     "eventi_osservati": 1,
+     "variabili_vive": 51
+    }
+   }
+  }
+ ]
+}

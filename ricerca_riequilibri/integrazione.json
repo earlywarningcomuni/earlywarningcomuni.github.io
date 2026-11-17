@@ -1,0 +1,110 @@
+{
+  "fase": "undicesima integrazione pubblicata e verificata online",
+  "aggiornato_il": "2026-10-17T20:39:42.964249+02:00",
+  "pubblicato": true,
+  "versione_congelata": "v2026-10-17-chiusure-residue",
+  "specifica_variabili": 51,
+  "prove_integrate": 115,
+  "prove_reviewed_catalogo": 130,
+  "prove_revisionate_ricerca": 130,
+  "chiusure_residue": 18,
+  "nuove_prove_non_ancora_applicate": [],
+  "panel_iniziale_sha256": "78f9aa97a1b10e425f3cc770730d40ce3e77ee9a15acff696a69ef0bda393ed7",
+  "panel_precedente_sha256": "c6810fce955d66b82483917060f825d37382ebbb09ac2d694971eb678984003a",
+  "panel_sha256": "17b44f77dfb2ef0aa2d33e1f3513fc7633012d38d69811a1081a3330c8f1157a",
+  "snapshot_anagrafica_sha256": "6beee7e0a090a4b66fe920c99eb370d9b5868e4a37ea8735a361d9365de308df",
+  "salvataggio": "C:\\Users\\ricma\\OneDrive\\Desktop\\tesi\\dati_bdap\\output\\salvataggi\\2026-10-16_1739_prima-quattro-chiusure-verificate",
+  "colonne_modificate": [
+    "crisi_rieq_attivo",
+    "crisi_rieq_attivo_certo",
+    "crisi_stato_foto"
+  ],
+  "righe_stato_modificato_in_questa_integrazione": 41,
+  "righe_segnale_modificato_in_questa_integrazione": 14,
+  "altre_115_colonne_identiche": true,
+  "altre_50_variabili_identiche": true,
+  "annate_scientifiche_identiche": [
+    2018
+  ],
+  "scarti_numerici_annate_senza_nuovi_ingressi": [
+    {
+      "anno": 2017,
+      "scarto_massimo_probabilita": 2.000000000002e-06,
+      "gruppi_top5_top10_identici": true,
+      "nota": "Minime differenze numeriche del ricalcolo a ingressi invariati; non nuovi dati di chiusura."
+    },
+    {
+      "anno": 2019,
+      "scarto_massimo_probabilita": 1.0000000000287557e-06,
+      "gruppi_top5_top10_identici": true,
+      "nota": "Minime differenze numeriche del ricalcolo a ingressi invariati; non nuovi dati di chiusura."
+    }
+  ],
+  "validazione_t1": {
+    "osservazioni_positive": 148,
+    "intercettati_top5": 121,
+    "quota_complessiva": 0.8175675675675675,
+    "richiamo_medio_annuo": 0.826,
+    "pr_auc_media": 0.131,
+    "auc_media": 0.953,
+    "fold": 7
+  },
+  "validazione_t3": {
+    "osservazioni_positive": 370,
+    "intercettati_top5": 234,
+    "quota_complessiva": 0.6324324324324324,
+    "richiamo_medio_annuo": 0.634,
+    "pr_auc_media": 0.212,
+    "auc_media": 0.937,
+    "fold": 5
+  },
+  "fotografia_2022": {
+    "t1": {
+      "top5": {
+        "segnalati": 394,
+        "colti": 19,
+        "quota": 0.8636
+      },
+      "top10": {
+        "segnalati": 787,
+        "colti": 21,
+        "quota": 0.9545
+      },
+      "top20": {
+        "segnalati": 1573,
+        "colti": 22,
+        "quota": 1.0
+      }
+    },
+    "t3": {
+      "top5": {
+        "segnalati": 394,
+        "colti": 52,
+        "quota": 0.6933
+      },
+      "top10": {
+        "segnalati": 787,
+        "colti": 62,
+        "quota": 0.8267
+      },
+      "top20": {
+        "segnalati": 1573,
+        "colti": 69,
+        "quota": 0.92
+      }
+    }
+  },
+  "documenti_catalogo_iniziale": 2184,
+  "fonti_aggiuntive_ricerca": 61,
+  "criterio": "Ricostruzione retrospettiva. Fine finanziaria solo se attestata in una prova conclusiva; altrimenti decisione. Disponibilità storica completa non certificata. Ritiro distinto dal risanamento.",
+  "spiegazione_integrazione": "Lizzano: fine finanziaria 2022, conferma 4 maggio 2023. Castelluccio dei Sauri: fine finanziaria 2020, conferma 10 giugno 2021. Santa Maria del Molise: dispositivo alla decisione 13 giugno 2022. Sellia Marina: dispositivo alla decisione 18 marzo 2026, nessuna chiusura nel 2022. Ultimo episodio iniziato entro ciascuna fotografia; Domanico 2015 concluso nel 2025 prevale sul precedente del 2014.",
+  "allerta": "Probabilità non arrotondate e ranghi rk/rk3; nessuna soglia basata sul percentile arrotondato.",
+  "url_portale": "https://ricmazza2000.github.io/tesi/portale.html",
+  "url_ricerca": "https://ricmazza2000.github.io/tesi/riequilibri.html",
+  "pubblicato_il": "2026-10-17T20:51:36.216595+02:00",
+  "commit_codice": "b21dbf8",
+  "commit_sito": "06a7cf4d8457eed96de588ff54acf74ca7422720",
+  "deployment": "https://github.com/ricmazza2000/tesi/actions/runs/39059356040",
+  "file_confrontati_online": 29,
+  "verifica_online": "../2026-10-16-riequilibri-residui/verifica_online.json"
+}

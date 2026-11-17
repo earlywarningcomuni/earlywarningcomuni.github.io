@@ -1,0 +1,320 @@
+{
+  "versione": "v2026-10-17-chiusure-residue",
+  "variabili": 51,
+  "elenco": [
+    "anticipazioni_su_entrate",
+    "tasso_riscossione",
+    "dipendenza_trasferimenti",
+    "rigidita_personale",
+    "rigidita_strutturale",
+    "incidenza_interessi",
+    "ris_amm_norm",
+    "disavanzo",
+    "fcde_su_residui",
+    "indice_indebitamento",
+    "ris_eco_norm",
+    "variaz_pop_5a",
+    "tasso_over65",
+    "din_var3_riscoss",
+    "din_var1_anticip",
+    "din_var3_indeb",
+    "din_disav_3a",
+    "din_riscoss_incalo",
+    "cassa_min_su_pag",
+    "anni_da_scioglimento",
+    "ifc_decile",
+    "ifc_tasso_occupaz",
+    "pdi_smalt_deb_comm_es",
+    "pdi_smalt_deb_comm_prec",
+    "pdi_itp",
+    "pdi_ha_dfb",
+    "irpef_reddito_medio_rel",
+    "irpef_quota_imponibile",
+    "irpef_contrib_su_pop",
+    "pdi_1_1",
+    "pdi_2_8",
+    "pdi_3_2",
+    "pdi_10_3",
+    "pdi_12_4",
+    "pdi_dfb_riconosciuti",
+    "pdi_dfb_in_riconoscimento",
+    "pdi_dfb_da_finanziare",
+    "p8_cap_riscossione",
+    "pdi_8_4",
+    "pdi_8_1",
+    "pdi_6_3",
+    "pdi_5_1",
+    "pdi_3_1",
+    "pdi_12_3",
+    "pdi_11_3",
+    "pdi_7_7",
+    "pdi_14_1",
+    "crisi_rieq_attivo",
+    "crisi_dec_diss_foto",
+    "fondo_contenzioso_su_entrate",
+    "fondo_perdite_partecipate_su_entrate"
+  ],
+  "escluse_non_diagnostiche": [
+    "fcde_basso"
+  ],
+  "anno_predefinito": 2022,
+  "anni": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "panel_sha256": "17b44f77dfb2ef0aa2d33e1f3513fc7633012d38d69811a1081a3330c8f1157a",
+  "validazione": {
+    "t1": {
+      "osservazioni_positive": 148,
+      "intercettate_top5": 121,
+      "quota_complessiva": 0.8175675675675675,
+      "per_anno": [
+        {
+          "anno": 2018,
+          "eventi": 34,
+          "intercettati_top5": 24
+        },
+        {
+          "anno": 2019,
+          "eventi": 24,
+          "intercettati_top5": 23
+        },
+        {
+          "anno": 2020,
+          "eventi": 19,
+          "intercettati_top5": 17
+        },
+        {
+          "anno": 2021,
+          "eventi": 20,
+          "intercettati_top5": 15
+        },
+        {
+          "anno": 2022,
+          "eventi": 22,
+          "intercettati_top5": 19
+        },
+        {
+          "anno": 2023,
+          "eventi": 16,
+          "intercettati_top5": 11
+        },
+        {
+          "anno": 2024,
+          "eventi": 13,
+          "intercettati_top5": 12
+        }
+      ]
+    },
+    "t3": {
+      "osservazioni_positive": 370,
+      "intercettate_top5": 234,
+      "quota_complessiva": 0.6324324324324324,
+      "per_anno": [
+        {
+          "anno": 2018,
+          "eventi": 79,
+          "intercettati_top5": 44
+        },
+        {
+          "anno": 2019,
+          "eventi": 68,
+          "intercettati_top5": 44
+        },
+        {
+          "anno": 2020,
+          "eventi": 68,
+          "intercettati_top5": 45
+        },
+        {
+          "anno": 2021,
+          "eventi": 80,
+          "intercettati_top5": 49
+        },
+        {
+          "anno": 2022,
+          "eventi": 75,
+          "intercettati_top5": 52
+        }
+      ]
+    }
+  },
+  "nota_validazione": "Quota complessiva distinta dalla media dei richiami annuali. Le finestre triennali possono ripetere lo stesso dissesto.",
+  "disponibilita_storica": "Ricostruzione retrospettiva; disponibilità storica di tutti gli ingressi non certificata.",
+  "stime_provvisorie": {
+    "stato": "modulo sperimentale separato",
+    "ricalcolate": true,
+    "confrontabili_con_graduatoria_corrente": true,
+    "entrano_nella_graduatoria_validata": false,
+    "versione_modello": "v2026-10-17-chiusure-residue",
+    "variabili": 51,
+    "calcolate_il": "2026-11-05",
+    "pubblicate_il": "2026-11-05",
+    "anni": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "indice": "stime/indice.json",
+    "verifiche": "stime/verifiche.json",
+    "disponibilita_storica_certificata": false,
+    "copertura": [
+      {
+        "schema": 1,
+        "anno": 2022,
+        "versione_modello": "v2026-10-17-chiusure-residue",
+        "variabili": 51,
+        "calcolato_il": "2026-11-05",
+        "archivi_di_riferimento_generati_il": "2026-10-16T21:19:19",
+        "entra_nella_graduatoria_ufficiale": false,
+        "sperimentale_locale": true,
+        "comuni_ufficiali": 7864,
+        "comuni_stimati": 24,
+        "dati_insufficienti": 21,
+        "universo_archivi": 7909,
+        "situazioni_stimate": {
+          "dissesto_attivo": 12,
+          "riequilibrio_attivo": 6,
+          "nessuna": 5,
+          "incerto": 1
+        },
+        "massima_eta_rendiconto": 3,
+        "minimo_indicatori_con_base": 26,
+        "metodo": "Ultimo rendiconto, aggiornamento delle fonti territoriali disponibili e risultato presunto del preventivo; nessuna estrapolazione lineare",
+        "nota_temporale": "Ricostruzione con gli archivi oggi disponibili: non certifica la disponibilità delle informazioni all’epoca né una capacità operativa già dimostrata.",
+        "panel_sha256": "17b44f77dfb2ef0aa2d33e1f3513fc7633012d38d69811a1081a3330c8f1157a",
+        "grafie_duplicate_escluse": 18,
+        "sperimentale": true,
+        "pubblicato_il": "2026-11-05"
+      },
+      {
+        "schema": 1,
+        "anno": 2023,
+        "versione_modello": "v2026-10-17-chiusure-residue",
+        "variabili": 51,
+        "calcolato_il": "2026-11-05",
+        "archivi_di_riferimento_generati_il": "2026-10-16T21:19:19",
+        "entra_nella_graduatoria_ufficiale": false,
+        "sperimentale_locale": true,
+        "comuni_ufficiali": 7834,
+        "comuni_stimati": 49,
+        "dati_insufficienti": 19,
+        "universo_archivi": 7902,
+        "situazioni_stimate": {
+          "dissesto_attivo": 25,
+          "riequilibrio_attivo": 11,
+          "nessuna": 10,
+          "incerto": 3
+        },
+        "massima_eta_rendiconto": 3,
+        "minimo_indicatori_con_base": 26,
+        "metodo": "Ultimo rendiconto, aggiornamento delle fonti territoriali disponibili e risultato presunto del preventivo; nessuna estrapolazione lineare",
+        "nota_temporale": "Ricostruzione con gli archivi oggi disponibili: non certifica la disponibilità delle informazioni all’epoca né una capacità operativa già dimostrata.",
+        "panel_sha256": "17b44f77dfb2ef0aa2d33e1f3513fc7633012d38d69811a1081a3330c8f1157a",
+        "grafie_duplicate_escluse": 15,
+        "sperimentale": true,
+        "pubblicato_il": "2026-11-05"
+      },
+      {
+        "schema": 1,
+        "anno": 2024,
+        "versione_modello": "v2026-10-17-chiusure-residue",
+        "variabili": 51,
+        "calcolato_il": "2026-11-05",
+        "archivi_di_riferimento_generati_il": "2026-10-16T21:19:19",
+        "entra_nella_graduatoria_ufficiale": false,
+        "sperimentale_locale": true,
+        "comuni_ufficiali": 7799,
+        "comuni_stimati": 79,
+        "dati_insufficienti": 18,
+        "universo_archivi": 7896,
+        "situazioni_stimate": {
+          "dissesto_attivo": 53,
+          "nessuna": 15,
+          "riequilibrio_attivo": 8,
+          "incerto": 3
+        },
+        "massima_eta_rendiconto": 3,
+        "minimo_indicatori_con_base": 26,
+        "metodo": "Ultimo rendiconto, aggiornamento delle fonti territoriali disponibili e risultato presunto del preventivo; nessuna estrapolazione lineare",
+        "nota_temporale": "Ricostruzione con gli archivi oggi disponibili: non certifica la disponibilità delle informazioni all’epoca né una capacità operativa già dimostrata.",
+        "panel_sha256": "17b44f77dfb2ef0aa2d33e1f3513fc7633012d38d69811a1081a3330c8f1157a",
+        "grafie_duplicate_escluse": 15,
+        "sperimentale": true,
+        "pubblicato_il": "2026-11-05"
+      },
+      {
+        "schema": 1,
+        "anno": 2025,
+        "versione_modello": "v2026-10-17-chiusure-residue",
+        "variabili": 51,
+        "calcolato_il": "2026-11-05",
+        "archivi_di_riferimento_generati_il": "2026-10-16T21:19:19",
+        "entra_nella_graduatoria_ufficiale": false,
+        "sperimentale_locale": true,
+        "comuni_ufficiali": 7592,
+        "comuni_stimati": 275,
+        "dati_insufficienti": 32,
+        "universo_archivi": 7899,
+        "situazioni_stimate": {
+          "nessuna": 164,
+          "dissesto_attivo": 78,
+          "riequilibrio_attivo": 22,
+          "incerto": 11
+        },
+        "massima_eta_rendiconto": 3,
+        "minimo_indicatori_con_base": 26,
+        "metodo": "Ultimo rendiconto, aggiornamento delle fonti territoriali disponibili e risultato presunto del preventivo; nessuna estrapolazione lineare",
+        "nota_temporale": "Ricostruzione con gli archivi oggi disponibili: non certifica la disponibilità delle informazioni all’epoca né una capacità operativa già dimostrata.",
+        "panel_sha256": "17b44f77dfb2ef0aa2d33e1f3513fc7633012d38d69811a1081a3330c8f1157a",
+        "grafie_duplicate_escluse": 13,
+        "sperimentale": true,
+        "pubblicato_il": "2026-11-05"
+      }
+    ],
+    "impronte_archivi": {
+      "anno_2022.json": "a2e2ffd978fea360937248a4d3335c0590581610e7c8c0a6c38773af4b117c44",
+      "anno_2023.json": "2a8fdb98076b7b5e177d671ab086624e6cfe7e3d16144785bfae8fde50c6e506",
+      "anno_2024.json": "893490bb0347f76b09ec0d0883bbdd7e1ca54a36ffeb976c327ea0e1a0992e19",
+      "anno_2025.json": "79be30da58271864e06fd0439848d4d67ca71b314638c62bd2ee9819a735b4cf",
+      "indice.json": "c52f1f6ecd2b44174c87e8b0d376875026106623dd27c85755927e4af08ef487",
+      "verifiche.json": "cba107bfd36ef4ada3d6066e7215c684ffc2664c3f255ba241764689b5ab1a27"
+    }
+  },
+  "rapporto_documentale": "ricerca_riequilibri/integrazione.json",
+  "dati_contabili_descrittivi": {
+    "indice": "bilancio_anni/indice.json",
+    "voce_parte_disponibile": 502,
+    "entra_nel_modello": false
+  },
+  "formato_impronte_pubbliche": "SHA-256 dei file UTF-8 con a-capo LF, come nei blob Git",
+  "impronte_annuali": {
+    "anno_2017.json": "f49844d748f00f105b70cc048635eb614c79c45d99476d84eb1d44e0b54d08ba",
+    "anno_2018.json": "1564f7c0233433361f4a744b3fa729e5ef14da4b0468f0ac684fac2ba534a832",
+    "anno_2019.json": "0819495c6038edd7d585bf6836e1ba411bd6f9e57e1c301307074880d16b323f",
+    "anno_2020.json": "ee82cc4f7badc23c2ef4cd4c771bb0b0ca25637b459cca246fa3af03dbb06464",
+    "anno_2021.json": "acc26ab7d41184d4fe19ce7865ed984134defe50def3cf875afbe58f642bbb59",
+    "anno_2022.json": "ce1ff41859bbdc84b9347bbd047c541b9c4736d3caa5d3d3a0e30f11f72ef9c5",
+    "anno_2023.json": "cb1a9754edafec65d1f231ce170c820041b8729ae76d00f5aa0e1ec3c1206efc",
+    "anno_2024.json": "e8a337a92da275c01c740b47b6ae5191aa44bda1fb1cd10d304b2c227008e6c4",
+    "anno_2025.json": "51c88dd220b78c1cc3b751f7b6e3e7d7c519edf1aef0d65bcaf170ff77621c5f",
+    "comuni_procedure.json": "4c458751a134cf366b85777589a3968df6bd288eaae357f7588765f2b6da1e0c",
+    "indice.json": "044a1b2516a016ca3f9ab613b966393392505158f856eea46f976132c59269dc"
+  },
+  "impronte_pagine": {
+    "index.html": "dd3aa7f0beecb04f2415b5542a120f04dae0e06c27d8249a2a868d83e4a2a35e",
+    "mappa-nazionale.html": "ec738aad0c81e4ca774e5c16756596d24bedd5f56c0d8d5ac7884fe4bb5ceb54",
+    "mappa-toscana.html": "0e629fa87df771b5e65dcd660bbbf23fb08230f1efbf04288d8cd47877dcfdb2",
+    "portale.html": "6272d4701b2f45be7fea5737a088f3c8018e76d205ade97cc5a913d7b7479526",
+    "riequilibri.html": "0d2889bf50a486f81b42d8cfe2fbe9d0f9204849e689d196528815c84a3bf606",
+    "stime.html": "db583a17552ff7ef18c10c2c1cb9ef42c2a978e9307d70d44a4cd8b88a14b438"
+  }
+}
