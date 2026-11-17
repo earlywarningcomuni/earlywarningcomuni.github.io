@@ -310,11 +310,30 @@
     "indice.json": "044a1b2516a016ca3f9ab613b966393392505158f856eea46f976132c59269dc"
   },
   "impronte_pagine": {
-    "index.html": "dd3aa7f0beecb04f2415b5542a120f04dae0e06c27d8249a2a868d83e4a2a35e",
-    "mappa-nazionale.html": "ec738aad0c81e4ca774e5c16756596d24bedd5f56c0d8d5ac7884fe4bb5ceb54",
-    "mappa-toscana.html": "0e629fa87df771b5e65dcd660bbbf23fb08230f1efbf04288d8cd47877dcfdb2",
-    "portale.html": "6272d4701b2f45be7fea5737a088f3c8018e76d205ade97cc5a913d7b7479526",
-    "riequilibri.html": "0d2889bf50a486f81b42d8cfe2fbe9d0f9204849e689d196528815c84a3bf606",
-    "stime.html": "db583a17552ff7ef18c10c2c1cb9ef42c2a978e9307d70d44a4cd8b88a14b438"
+    "index.html": "9b32791e2c016a865849e3f7757c6ca02f67cc234552ac0a6700d0ce50bb29de",
+    "mappa-nazionale.html": "777b5ac9245f49bf3431d8f73edc5d31583ffea1628ac22c5ae43219675572ae",
+    "mappa-toscana.html": "07b84014f02777953d7d89a3b513723938aa3505976fa9b833edfddeef9888aa",
+    "portale.html": "43a82ba16d2668b6d3df463e287b7f2b80162a8d9af2706160ccb8001b230239",
+    "riequilibri.html": "8c818cad3d5ae086d62b581fc1a38e92f284c379b32a3e346000cad9f977ae76",
+    "stime.html": "25f26c7dfb8cb89b56fee09958cb469da417cafc1b6cdcb09de54c2f2227af8d"
+  },
+  "contesto_territoriale": {
+    "revisione": "20261117-territorio1",
+    "entra_nel_modello": false,
+    "geografia_storica_ricostruita": false,
+    "indice": "territorio/indice.json",
+    "confronti": "Confinanti prioritari, popolazione da metà al doppio, poi entro 50 km",
+    "fonte_geografica": {
+      "geometrie": "comuni_it.geojson, stessa base Openpolis delle mappe esistenti",
+      "sha256": "2196ba2f5fe58293de18a5f9b896a71eea76a11889ec9e5c134b27a4edd4efde",
+      "criterio": "Confine condiviso con lunghezza positiva; il solo contatto in un vertice non basta.",
+      "geografia_storica": false,
+      "nota": "Confinanti secondo i confini usati dalla mappa, mantenuti fissi nel confronto fra anni. Fusioni e variazioni territoriali storiche non sono ricostruite da questo modulo.",
+      "distanze": "In linea d’aria tra i centri geografici dei territori comunali; non distanze stradali."
+    },
+    "impronte": {
+      "indice.json": "8b0f2f30e3284a512d559087adc407191bc8afc095f2c117cb7e16ccb1817a53",
+      "confini_esterni_toscana.json": "e05543c5e309113bb65f99a784ff1224037d6a93f950bc52775a13e22cb88b04"
+    }
   }
 }
