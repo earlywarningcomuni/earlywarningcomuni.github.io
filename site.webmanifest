@@ -1,9 +1,12 @@
 {
   "name": "Early warning dei Comuni",
   "short_name": "Allerta Comuni",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
   "icons": [
-    { "src": "icon-192.png", "type": "image/png", "sizes": "192x192" },
-    { "src": "favicon-512.png", "type": "image/png", "sizes": "512x512" }
+    { "src": "icon-192.png", "type": "image/png", "sizes": "192x192", "purpose": "any" },
+    { "src": "favicon-512.png", "type": "image/png", "sizes": "512x512", "purpose": "any" }
   ],
   "theme_color": "#172E4B",
   "background_color": "#F7F4EC",
